@@ -31,7 +31,7 @@ body{ background:#FFFFFF; border:0; font: 12px Arial, Helvetica, sans-serif; col
 
 .main1 { width:100%;height:625px; position:relative; z-index:1; background-color:#FFFFFF;}
 
-.main2{ width:1099px; height:674px; background-color:#FFA1B5; position:absolute; left:50%; top:50%; margin-left:-550px; margin-top:-360px; z-index:10;}
+.main2{ width:1099px; height:674px; background-color:#FFFFFF; position:absolute; left:50%; top:50%; margin-left:-550px; margin-top:-360px; z-index:10;}
 
 .splash{ width:1000px; height:480px; position:absolute; left:50px; top:50px; z-index:20;}
 #slider { display:block; width:1000px; height:480px; overflow: hidden; white-space:nowrap;}
@@ -66,7 +66,7 @@ footer{ width:100%; height:41px; background-color:#FFFFFF; position:absolute; le
 
 /* ============================= main menu ====================== */
 
-.menu { display:block; width:1000px; height:98px; position:absolute; left:50px; bottom:15px; z-index:10; white-space:nowrap; }
+.menu { display:block; width:1000px; height:98px; position:absolute; left:50px; bottom:15px; z-index:10; white-space:nowrap; background-color:#FFA1B5;}
 #menu { }
 #menu > li{display:inline-block; width:200px;height:98px;position:relative;float:left;background:url(../images/nav.png) 0 0 no-repeat;}
 #menu > li:first-child{ background:none;}
