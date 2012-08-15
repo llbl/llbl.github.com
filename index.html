@@ -6,7 +6,7 @@ URL="home.html">
 <body>
 <script language="javascript">
 <!--
-if (navigator.appName == "Microsoft Internet Explorer") {
+if ((navigator.appName == "Microsoft Internet Explorer") && (navigator.appVersion < "5.0")) {
         document.location = "ie.html"; 
 } else { 
         document.location = "home.html";
